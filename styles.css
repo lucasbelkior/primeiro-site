@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div#interface {
+    position:relative; /* transforma a div em um conteiner */
+    background-color: #fff; /* branco */
+    width:900px;/* por enquanto */
+    margin: -23px auto 0px auto;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+    padding:10px;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #fff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px; /* Defina o tamanho desejado para a imagem da logo */
+  height: 50px; /* Defina o tamanho desejado para a imagem da logo */
+}
+
+.logo h1 {
+  font-size: 24px; /* Defina o tamanho da fonte desejado para o nome do site */
+  margin-left: 10px; /* Defina a margem desejada entre a imagem e o texto */
+}
+
